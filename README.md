@@ -2,6 +2,8 @@
 
 ## Learning Competencies
 
+* style CSS inputs
+
 ## Summary
 
 We're going to learn some fundamentals about styling a form.
