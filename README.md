@@ -27,7 +27,7 @@ You should do your own research too, but here are some good places to start:
 
 ## Releases
 
-### Release 0:That's a Fine-Looking Signup Form
+### Release 0: That's a Fine-Looking Signup Form
 
 Your task: use CSS to transform the existing grossness into something
 approximating the following:
