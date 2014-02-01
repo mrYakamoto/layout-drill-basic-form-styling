@@ -2,7 +2,7 @@
 
 ## Learning Competencies
 
-* style CSS inputs
+* Edit presentation layer to achieve a new layout
 
 ## Summary
 
