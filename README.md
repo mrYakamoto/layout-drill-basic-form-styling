@@ -48,9 +48,7 @@ What did we actually change?  Well, here is a short list of the new features:
 *NOTE: You are allowed to edit the HTML in order to solve this challenge.  You
 shouldn't have to do too much more than remove the `<label>` elements, though.*
 
-## Optimize Your Learning
-
-_No comment_
+<!--## Optimize Your Learning-->
 
 ## Resources
 
