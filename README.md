@@ -62,4 +62,4 @@ shouldn't have to do too much more than remove the `<label>` elements, though.*
 [Documentation for the &lt;input&gt; element]: https://developer.mozilla.org/en-US/docs/HTML/Element/input
 [Styling Texty Inputs Only]: http://css-tricks.com/styling-texty-inputs-only/
 [Sexy Form]: http://f.cl.ly/items/3c422L302j0z1j0j0w24/sexy_form.png
-[CSS3Gradient]: http://www.css3files.com/gradient/
+[CSS3Gradient]: http://css3files.com/gradient/
