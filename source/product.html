@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- 
+  <!--
     normalize.css removes cross-browser differences in defaults, e.g.,
     differences in how form elements appear between Firefox and IE
     See: http://necolas.github.com/normalize.css/
@@ -13,14 +13,14 @@
   <title></title>
 </head>
 <body>
-  <div class="container">
+  <div class="container debug">
     <header>
       <h1>My Super SaaS</h1>
     </header>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Tour</a></li>   
+        <li><a href="#">Tour</a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
@@ -29,16 +29,17 @@
     </nav>
     <div class="content">
       <h2>You are so totally going to love this application.</h2>
-      <div id="registration">
-        <form name="sign_up" action="#" method="post">
-          <label for="email">Email</label>
-          <input type="text" name="email">
-          <label for="password">Password</label>
-          <input type="password" name="password">
 
-          <button type="submit">Sign Up</button>
+      <div class="debug m-a w-40 gradient-blue bdrs pl-sm pr-sm pt-sm pb-sm " id="registration">
+        <form name="sign_up" action="#" method="post">
+          <input class="w-98" type="text" name="email" placeholder="Email"><br>
+
+          <input class="w-65 m-t-xs"type="password" name="password" placeholder="Password">
+
+          <button class="fr m-t-xs bxsh-white" type="submit">Sign Up</button>
         </form>
       </div>
+
       <div id="buzz">
         <h3>Check out our buzz:</h3>
         <blockquote>
