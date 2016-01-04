@@ -1,12 +1,51 @@
-.container {
-  /*
-    If you have a block-level element of a certain width, margin: 0 auto;
-    will how you center it inside its parent container.
+.debug {
+  border: 1px solid red;
+}
 
-    See: http://bluerobot.com/web/css/center1.html
-    
-    Don't change the container width.
-  */
-  margin: 0 auto;  
+.container {
+  margin: 0 auto;
   width: 720px;
 }
+
+.gradient-blue {
+  background: rgba(156,200,240,1);
+  background: -moz-linear-gradient(top, rgba(156,200,240,1) 0%, rgba(63,77,92,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(156,200,240,1)), color-stop(100%, rgba(63,77,92,1)));
+  background: -webkit-linear-gradient(top, rgba(156,200,240,1) 0%, rgba(63,77,92,1) 100%);
+  background: -o-linear-gradient(top, rgba(156,200,240,1) 0%, rgba(63,77,92,1) 100%);
+  background: -ms-linear-gradient(top, rgba(156,200,240,1) 0%, rgba(63,77,92,1) 100%);
+  background: linear-gradient(to bottom, rgba(156,200,240,1) 0%, rgba(63,77,92,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cc8f0', endColorstr='#3f4d5c', GradientType=0 );
+}
+
+.bxsh-white {
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 4px 2px rgba(255,255,255,1);
+  box-shadow: 0px 0px 4px 2px rgba(255,255,255,1);
+
+  background-color: #555555;
+  color: white;
+}
+
+.bdrs { border-radius: 6px }
+
+
+
+.fr { float: right; }
+
+.m-a { margin: 0 auto; }
+.m-t-xs { margin-top: 5px; }
+
+.pl-sm { padding-left: 3%; }
+.pr-sm { padding-right: 3%;}
+.pt-sm { padding-top: 3%; }
+.pb-sm {padding-bottom: 3%; }
+
+.w-98 { width: 98%; }
+.w-65 { width: 65%; }
+.w-60 { width: 60%; }
+.w-50 { width: 50%; }
+.w-40 { width: 40%; }
+
+
+
